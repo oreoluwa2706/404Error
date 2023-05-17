@@ -1,0 +1,48 @@
+body {
+  background-color: red;
+}
+
+table {
+  border: "1";
+  width: "100%";
+  background: "#f39";
+}
+table1 {
+  border: "1";
+  width: "85%";
+  padding: "15";
+  position: "center";
+}
+
+#table2 {
+  background-color: brown;
+  border: "1";
+  align-items: center;
+  padding: 5px;
+}
+
+a {
+  border: "1";
+}
+a:link {
+  color: green;
+  text-decoration-line: none;
+  font-size: 15px;
+  padding: 20px;
+  border: "1";
+  background-color: white;
+}
+
+a:visited {
+  color: cornflowerblue;
+}
+a:hover {
+  color: red;
+}
+
+a:active {
+  background-color: aliceblue;
+}
+#box1 {
+  border: 4px;
+}

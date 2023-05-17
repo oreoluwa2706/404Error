@@ -1,0 +1,171 @@
+* {
+  box-sizing: 100%;
+}
+body {
+  background-color: grey;
+}
+
+div {
+  background-color: rgb(105, 103, 103);
+}
+nav {
+  width: 80%;
+  background-color: rgb(88, 86, 86);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+button {
+  margin: 40px;
+  background-color: blue;
+  color: black;
+  border-radius: 5px;
+  font-size: 30px;
+  padding-left: 50px;
+  text-align: center;
+  margin-left: 10px;
+}
+.button1 {
+  margin-left: 200px;
+}
+a {
+  padding-left: 50px;
+  font-size: 50px;
+  color: white;
+}
+.a1 {
+  font-size: 70px;
+  color: red;
+  text-shadow: 0 0 0 3px black inset;
+}
+
+p {
+  padding-top: -10px;
+  color: white;
+  padding-left: 40px;
+}
+.div1 {
+  background-color: grey;
+  gap: 50px 100px;
+  grid-template-columns: 350px 350px 350px 350px;
+
+  display: grid;
+  grid-template-rows: 350px 350px;
+  font-size: 40px;
+  text-align: center;
+}
+.div2 {
+  background-color: blueviolet;
+}
+.div3 {
+  background-color: red;
+  box-shadow: 0 0 0 3px white inset;
+}
+.div5 {
+  background-color: orange;
+  box-shadow: 0 0 0 3px white inset;
+}
+.div4 {
+  background-color: powderblue;
+  box-shadow: 0 0 0 3px white inset;
+}
+.div6 {
+  background-color: rgb(52, 52, 147);
+  box-shadow: 0 0 0 3px white inset;
+}
+.div7 {
+  background-color: darkblue;
+  box-shadow: 0 0 0 3px white inset;
+}
+.div8 {
+  background-color: palevioletred;
+  box-shadow: 0 0 0 3px white inset;
+}
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+  position: relative;
+}
+i.fa-duotone fa-thumbtack {
+  background-color: blue;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 300px;
+  z-index: 1;
+}
+.button2 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 330px;
+  z-index: 1;
+  border-color: red;
+}
+.button3 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 780px;
+  z-index: 1;
+  border-color: red;
+}
+.button4 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 1230px;
+  z-index: 1;
+  border-color: red;
+}
+
+.button5 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 1680px;
+  z-index: 1;
+  border-color: red;
+}
+.button6 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 330px;
+  z-index: 1;
+  border-color: red;
+}
+.button7 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 780px;
+  z-index: 1;
+  border-color: red;
+}
+.button8 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 1230px;
+  z-index: 1;
+  border-color: red;
+}
+.button9 {
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 1680px;
+  z-index: 1;
+  border-color: red;
+}

@@ -1,0 +1,30 @@
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 1px solid blue;
+  background-color: yellow;
+  text-align: center;
+  line-height: 99px;
+}
+
+.flex-con {
+  flex-wrap: wrap;
+  /* <A>    */
+  display: flex;
+  /* 1. uncomment below 2 lines by commenting above 1 line */
+  /* <B>   */
+  /*   display: inline-flex; */
+}
+
+.label {
+  padding-bottom: 20px;
+}
+.flex-inline-play {
+  padding: 40px;
+  border: 1px dashed green;
+  /*  <C> */
+  width: 1000px;
+  /*   <D> */
+  display: flex;
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+}
+#img1 {
+  width: 60px;
+  height: 60px;
+  margin-left: -20%;
+  border-radius: 50%;
+}
+#img2 {
+  background-color: blueviolet;
+  height: 40px;
+  width: 85%;
+}
+#div1 {
+  margin: 30px;
+  width: 45%;
+  margin-right: 0px;
+  background-color: rgb(133, 2, 255);
+  color: white;
+}
+#sign1 {
+  background-color: blueviolet;
+  color: white;
+}
+button {
+  width: 60%;
+}
+#main_div {
+  margin-left: 10px;
+  display: flex;
+  background-color: rgb(241, 236, 236);
+  text-align: center;
+  width: auto;
+  height: 60%;
+}
+#div2 {
+  margin: 30px;
+  margin-left: 0px;
+  width: 45%;
+  text-align: center;
+  background-color: white;
+}
+footer {
+  margin-right: 70%;
+  margin-top: 10%;
+}

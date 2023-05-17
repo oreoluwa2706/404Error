@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+}
+.div1 {
+  gap: 30px 50px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px 150px;
+}
+.div1_1 {
+  margin-top: 10px;
+  background-color: aqua;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.div4 {
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.div7 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 250px 250px 250px 250px 250px;
+}
+
+.div1_5 {
+  background-color: black;
+  position: relative;
+}
+.div9 {
+  display: flex;
+  position: relative;
+}
+i {
+  size: 40px;
+  background-color: rgb(227, 42, 13);
+  margin-left: 200px;
+  position: absolute;
+  z-index: 1;
+}

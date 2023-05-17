@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.hr1,
+.hr2,
+.hr3,
+.hr4,
+.hr5,
+.hr6,
+.hr7 {
+  width: 70%;
+  height: 30px;
+  background-color: blueviolet;
+}
+.hr2,
+.hr3,
+.hr4 {
+  transform: rotate(90deg);
+  padding-left: -40%;
+  margin-right: -18.7%;
+}
+.hr3 {
+  margin-right: 12%;
+}
+
+div {
+  background-color: yellow;
+  width: 80%;
+}
+.hr5 {
+  padding-left: 10%z;
+}

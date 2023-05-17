@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="figure.css" />
+  </head>
+  <body>
+    <figure>
+      <blockquote>
+        <h1>Flex vs inline-flex</h1>
+        <cite
+          >This pen is understand difference between flex and inline-flex.
+          Follow along to understand this basic property of css</cite
+        >
+        <ul>
+          <li>
+            Follow #1 in CSS:
+            <ul>
+              <li>Comment <code>display: flex</code></li>
+              <li>Un-comment <code>display: inline-flex</code></li>
+            </ul>
+          </li>
+          <li>
+            Hope you would have understood till now. This is very similar to
+            situation of `inline-block` vs `block`. Lets go beyond and
+            understand usecase to apply learning. Now lets play with
+            combinations of A, B, C & D by un-commenting only as instructed:
+            <ul>
+              <li>
+                A with D -- does this do same job as
+                <code>display: inline-flex</code>. Umm, you may be right, but
+                not its doesnt do always, keep going !
+              </li>
+              <li>A with C</li>
+              <li>A with C & D -- Something wrong ? Keep going !</li>
+              <li>B with C</li>
+              <li>
+                B with C & D -- Still same ? Did you learn something ?
+                inline-flex is useful if you have space to occupy in parent of 2
+                flexboxes <code>.flex-con</code>. That's the only usecase
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </blockquote>
+    </figure>
+    <br />
+    <div class="label">Playground:</div>
+    <div class="flex-inline-play">
+      <div class="flex-con">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      <div class="flex-con">
+        <div class="item">X</div>
+        <div class="item">Y</div>
+        <div class="item">Z</div>
+        <div class="item">V</div>
+        <div class="item">W</div>
+      </div>
+    </div>
+  </body>
+</html>
